@@ -1,5 +1,5 @@
 echo "****************** Installing pytorch ******************"
-conda install -y pytorch torchvision cudatoolkit=10.2 -c pytorch
+# conda install -y pytorch torchvision cudatoolkit=10.2 -c pytorch
 
 echo ""
 echo ""
@@ -29,7 +29,7 @@ pip install pandas
 echo ""
 echo ""
 echo "****************** Installing tqdm ******************"
-conda install -y tqdm
+pip install tqdm
 
 echo ""
 echo ""
@@ -39,7 +39,7 @@ pip install pycocotools
 echo ""
 echo ""
 echo "****************** Installing jpeg4py python wrapper ******************"
-apt-get install libturbojpeg
+# apt-get install libturbojpeg
 pip install jpeg4py
 
 echo ""
@@ -81,6 +81,16 @@ echo ""
 echo ""
 echo "****************** Installing vot-toolkit python ******************"
 pip install git+https://github.com/votchallenge/vot-toolkit-python
+
+echo ""
+echo ""
+echo "****************** Installing timm ******************"
+pip install timm
+
+echo ""
+echo ""
+echo "****************** Installing loguru ******************"
+pip install loguru
 
 echo ""
 echo ""
